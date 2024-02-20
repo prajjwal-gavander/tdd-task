@@ -1,0 +1,11 @@
+{
+  "name": "tdd-task",
+  "version": "1.0.0",
+  "description": "Assignment demonstrating TDD approach of simple string caluclator.",
+  "main": "stringCalculator.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Prajjwal Gavander (prajjwal.gavander.2029@gmail.com)",
+  "license": "ISC"
+}
