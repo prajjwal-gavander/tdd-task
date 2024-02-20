@@ -13,4 +13,12 @@ describe('add', () => {
     expect(add("1,5")).toBe(6);
   });
 
+  it('should return the sum of three numbers given as comma separated string', () => {
+    expect(add("1,5,7")).toBe(13);
+  });
+
+  it('should return the sum of any numbers given as comma separated string', () => {
+    expect(add("1,5,7,9")).toBe(22);
+  });
+
 });
