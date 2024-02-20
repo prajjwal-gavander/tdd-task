@@ -4,8 +4,11 @@
   "description": "Assignment demonstrating TDD approach of simple string caluclator.",
   "main": "stringCalculator.js",
   "scripts": {
-    "test": "jest"
+    "test": "npx jest stringCalculator.spec.js"
   },
   "author": "Prajjwal Gavander (prajjwal.gavander.2029@gmail.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
