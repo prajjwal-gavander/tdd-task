@@ -21,4 +21,12 @@ describe('add', () => {
     expect(add("1,5,7,9")).toBe(22);
   });
 
+  it('should return the sum of any numbers given as single newline separated string', () => {
+    expect(add("1\n2, 3")).toBe(6);
+  });
+
+  it('should return the sum of any numbers given as multiple newline separated string', () => {
+    expect(add("1\n2\n5")).toBe();
+  });
+
 });
