@@ -26,7 +26,7 @@ describe('add', () => {
   });
 
   it('should return the sum of any numbers given as multiple newline separated string', () => {
-    expect(add("1\n2\n5")).toBe();
+    expect(add("1\n2\n5")).toBe(8);
   });
 
 });
