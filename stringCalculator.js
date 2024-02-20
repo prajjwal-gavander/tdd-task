@@ -1,10 +1,7 @@
 const add = (string) => {
   if (string === "") return 0;
-  else if (string.includes(",")) {
-    const numbers = string.split(",");
-    return parseInt(numbers[0]) + parseInt(numbers[1]);
-  }
-  else return parseInt(string);
+  const numbers = string.split(",").map(number => parseInt(number));
+  return numbers.reduce((accumulator, number) => accumulator + number, 0);
 }
 
 
